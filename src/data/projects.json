@@ -133,5 +133,27 @@
     "forks": 0,
     "createdAt": "2025-05-12T15:47:32Z",
     "updatedAt": "2025-05-12T14:28:33Z"
+  },
+  {
+    "name": "A-Burgar-POS-delivery-system",
+    "title": "Burger POS & Delivery System",
+    "description": "A Dockerized full-stack prototype for a food delivery application with integrated point-of-sale functionality — Next.js frontend, FastAPI backend, MySQL database, and Nginx reverse proxy orchestrated with Docker Compose.",
+    "features": [
+      "Nginx reverse proxy routing traffic to the frontend (port 80) and backend API (/api)",
+      "Auto-generated API documentation at /docs via FastAPI",
+      "Persistent MySQL database with Docker volume support",
+      "Single-command Docker Compose orchestration for dev and production"
+    ],
+    "techStack": ["Next.js", "FastAPI", "Python", "MySQL", "Docker", "Nginx", "Tailwind CSS"],
+    "categories": ["web", "database"],
+    "githubUrl": "https://github.com/mine969/A-Burgar-POS-delivery-system",
+    "demoUrl": null,
+    "language": "Python",
+    "featured": true,
+    "isFork": false,
+    "stars": 0,
+    "forks": 0,
+    "createdAt": "2025-12-01T00:00:00Z",
+    "updatedAt": "2025-12-06T00:00:00Z"
   }
 ]

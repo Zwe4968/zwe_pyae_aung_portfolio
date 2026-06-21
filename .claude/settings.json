@@ -22,7 +22,11 @@
       "Bash(timeout 20 bash -c 'until curl -sf http://localhost:4173/zwe_pyae_aung_portfolio/ >/dev/null; do sleep 1; done')",
       "Bash(node scripts/gh-pages-check.mjs)",
       "Bash(pkill -f \"vite preview\")",
-      "Bash(curl -s http://localhost:5173/zwe_pyae_aung_portfolio/)"
+      "Bash(curl -s http://localhost:5173/zwe_pyae_aung_portfolio/)",
+      "Bash(curl -s \"https://api.github.com/repos/mine969/A-Burgar-POS-delivery-system\")",
+      "Bash(gh auth *)",
+      "WebFetch(domain:github.com)",
+      "Bash(node scripts/check-burger.mjs)"
     ]
   }
 }

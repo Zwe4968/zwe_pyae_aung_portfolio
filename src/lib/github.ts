@@ -52,7 +52,19 @@ export async function safeFetch<T>(fetcher: () => Promise<T>): Promise<T | null>
 
 const staticProjects = staticProjectsRaw as StaticProjectEntry[]
 
+/**
+ * Most curated projects live under GITHUB_USERNAME, but not all — e.g. a
+ * collaboration hosted on someone else's account. Deriving owner/repo from
+ * the entry's own githubUrl (rather than assuming GITHUB_USERNAME) keeps
+ * the auto-generated OG screenshot pointed at the right repo either way.
+ */
+function parseOwnerRepo(githubUrl: string): { owner: string; repo: string } | null {
+  const match = githubUrl.match(/github\.com\/([^/]+)\/([^/]+)\/?$/)
+  return match ? { owner: match[1], repo: match[2] } : null
+}
+
 function toProject(entry: StaticProjectEntry, overrides: Partial<Project> = {}): Project {
+  const ownerRepo = parseOwnerRepo(entry.githubUrl)
   return {
     name: entry.name,
     title: entry.title,
@@ -63,7 +75,9 @@ function toProject(entry: StaticProjectEntry, overrides: Partial<Project> = {}):
     isFork: entry.isFork,
     githubUrl: entry.githubUrl,
     demoUrl: entry.demoUrl,
-    screenshotUrl: entry.screenshots?.[0] ?? `https://opengraph.githubassets.com/1/${GITHUB_USERNAME}/${entry.name}`,
+    screenshotUrl:
+      entry.screenshots?.[0] ??
+      (ownerRepo ? `https://opengraph.githubassets.com/1/${ownerRepo.owner}/${ownerRepo.repo}` : ''),
     language: entry.language,
     featured: entry.featured,
     stars: entry.stars,
@@ -120,7 +134,11 @@ export function mergeProjects(liveRepos: GithubRepo[] | null): Project[] {
 
   const liveByName = new Map(liveRepos.map((r) => [r.name, r]))
   const merged = staticProjects.map((entry) => {
-    const live = liveByName.get(entry.name)
+    const ownerRepo = parseOwnerRepo(entry.githubUrl)
+    // Only attempt to merge live stats for entries actually owned by
+    // GITHUB_USERNAME — liveRepos only ever contains that account's repos,
+    // so this also rules out a same-named repo elsewhere being matched by mistake.
+    const live = ownerRepo?.owner === GITHUB_USERNAME ? liveByName.get(entry.name) : undefined
     if (!live) return toProject(entry)
     return toProject(entry, {
       stars: live.stargazers_count,
