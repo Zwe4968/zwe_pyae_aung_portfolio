@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/Users/\"Zwe Pyae Aung\" -maxdepth 4 -iname \"*Zwe Pyae Aung*\" -type f 2>/dev/null)",
+      "Read(//c/Users/Zwe Pyae Aung/**)",
+      "Bash(cp \"/c/Users/Zwe Pyae Aung/Downloads/Zwe Pyae Aung Resume.pdf\" \"/c/Users/Zwe Pyae Aung/Desktop/Portfolio/public/Zwe-Pyae-Aung-Resume.pdf\" && ls -la \"/c/Users/Zwe Pyae Aung/Desktop/Portfolio/public/\")",
+      "Bash(curl -s http://localhost:5173/)",
+      "Bash(curl -s \"https://api.github.com/users/Zwe4968\")",
+      "Bash(curl -s \"https://api.github.com/users/Zwe4968/repos?sort=updated&per_page=100\")",
+      "Bash(python3 -c ' *)",
+      "Bash(cd \"/c/Users/Zwe Pyae Aung/Desktop/Portfolio\" && rm -f vite.config.js)",
+      "Bash(npx tsc *)",
+      "Bash(curl -s http://localhost:5174/)",
+      "Read(//tmp/**)",
+      "Bash(curl -s http://localhost:5175/ -o /tmp/index.html -w \"%{http_code}\\\\n\")",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(npx --yes playwright --version)",
+      "Bash(npx playwright *)",
+      "Bash(mkdir -p scripts/screenshots)",
+      "Bash(node scripts/verify.mjs http://localhost:5175)",
+      "Bash(pkill -f \"vite --port 5174\")",
+      "Bash(pkill -f \"node.*vite\")",
+      "Bash(npm uninstall *)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Zwe Pyae Aung\\Downloads",
+      "c:\\c\\Users\\Zwe Pyae Aung\\Desktop\\Portfolio"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://Zwe4968.github.io/zwe_pyae_aung_portfolio/sitemap.xml

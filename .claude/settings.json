@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p scripts/screenshots)",
+      "Bash(node scripts/audit.mjs http://localhost:5180)",
+      "Bash(node scripts/measure.mjs http://localhost:5180)",
+      "Bash(node scripts/network.mjs http://localhost:5180)",
+      "Bash(node scripts/check-section.mjs http://localhost:5180 \"#projects\" scripts/screenshots/check-projects.png)",
+      "Bash(node scripts/check-section.mjs http://localhost:5180 \"#skills\" scripts/screenshots/check-skills.png)",
+      "Bash(pkill -f \"vite --port 5180\")",
+      "Bash(npm run *)",
+      "Bash(timeout 20 bash -c 'until curl -sf http://localhost:5181 >/dev/null; do sleep 1; done')",
+      "Read(//tmp/**)",
+      "Bash(node scripts/check-section.mjs http://localhost:5181 \"#projects\" scripts/screenshots/check-projects2.png)",
+      "Bash(node scripts/check-section.mjs http://localhost:5181 \"#github-stats\" scripts/screenshots/check-stats2.png)",
+      "Bash(node scripts/final-check.mjs http://localhost:5173)",
+      "Bash(pkill -f \"vite --port 5173\")",
+      "Bash(node scripts/verify-hybrid.mjs http://localhost:5173)",
+      "Bash(curl -sf http://localhost:5173)",
+      "Bash(node scripts/nav-check.mjs)",
+      "Bash(node scripts/check-chinese.mjs)",
+      "Bash(timeout 20 bash -c 'until curl -sf http://localhost:4173/zwe_pyae_aung_portfolio/ >/dev/null; do sleep 1; done')",
+      "Bash(node scripts/gh-pages-check.mjs)",
+      "Bash(pkill -f \"vite preview\")",
+      "Bash(curl -s http://localhost:5173/zwe_pyae_aung_portfolio/)",
+      "Bash(curl -s \"https://api.github.com/repos/mine969/A-Burgar-POS-delivery-system\")",
+      "Bash(gh auth *)",
+      "WebFetch(domain:github.com)",
+      "Bash(node scripts/check-burger.mjs)"
+    ]
+  }
+}
