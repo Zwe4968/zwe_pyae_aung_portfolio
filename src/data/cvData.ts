@@ -55,15 +55,6 @@ export const education: EducationEntry[] = [
     note: 'Integrating programming and emerging technology into scalable network solutions.',
   },
   {
-    school: 'Dagon University of Yangon',
-    location: 'Myanmar',
-    degree: 'B.Sc. in Geology',
-    major: 'Geology',
-    period: 'October 2017 – Present (2nd year of study)',
-    gpa: null,
-    note: null,
-  },
-  {
     school: 'KMD College',
     location: 'Myanmar',
     degree: 'Diploma in Network Communication',
