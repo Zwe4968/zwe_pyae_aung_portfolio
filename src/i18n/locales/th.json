@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "home": "หน้าแรก",
+    "about": "เกี่ยวกับฉัน",
+    "education": "การศึกษา",
+    "experience": "ประสบการณ์ทำงาน",
+    "skills": "ทักษะ",
+    "certifications": "ใบรับรอง",
+    "projects": "โครงการ",
+    "githubStats": "สถิติ GitHub",
+    "achievements": "ความสำเร็จ",
+    "contact": "ติดต่อ"
+  },
+  "hero": {
+    "availableBadge": "พร้อมรับโอกาสใหม่ๆ",
+    "downloadResume": "ดาวน์โหลดเรซูเม่",
+    "contactMe": "ติดต่อฉัน",
+    "viewGithub": "ดู GitHub",
+    "connectLinkedin": "เชื่อมต่อทาง LinkedIn"
+  },
+  "about": {
+    "title": "เกี่ยวกับฉัน",
+    "subtitle": "ภาพรวมประสบการณ์การทำงาน จุดแข็ง และภาษาที่ใช้ในการทำงานของฉัน",
+    "careerObjective": "เป้าหมายในอาชีพ",
+    "strengths": "จุดแข็งส่วนตัว",
+    "languages": "ภาษา"
+  },
+  "education": {
+    "title": "การศึกษา",
+    "subtitle": "เส้นทางการศึกษาด้านเครือข่าย เทคโนโลยี และวิทยาศาสตร์ของฉัน"
+  },
+  "experience": {
+    "title": "ประสบการณ์ทำงาน",
+    "subtitle": "ประสบการณ์ด้านวิศวกรรมเครือข่ายสี่ปี ตั้งแต่การติดตั้งหน้างานจนถึงการบริหาร NOC"
+  },
+  "skills": {
+    "title": "ทักษะ",
+    "subtitle": "การผสมผสานความเชี่ยวชาญด้านเครือข่ายเชิงลึกกับทักษะการพัฒนาซอฟต์แวร์ที่เติบโตขึ้น",
+    "categories": {
+      "Networking": "เครือข่าย",
+      "Cybersecurity": "ความปลอดภัยทางไซเบอร์",
+      "Cloud Computing": "คลาวด์คอมพิวติ้ง",
+      "Programming Languages": "ภาษาโปรแกรม",
+      "Databases": "ฐานข้อมูล",
+      "Web Development": "การพัฒนาเว็บ",
+      "Operating Systems": "ระบบปฏิบัติการ",
+      "DevOps": "DevOps",
+      "AI / Machine Learning": "AI / แมชชีนเลิร์นนิง",
+      "Other Technical Skills": "ทักษะทางเทคนิคอื่นๆ",
+      "Tools & Technologies": "เครื่องมือและเทคโนโลยี"
+    }
+  },
+  "certifications": {
+    "title": "ใบรับรอง",
+    "subtitle": "ใบรับรองที่เป็นที่ยอมรับในอุตสาหกรรม รองรับความเชี่ยวชาญด้านเครือข่ายของฉัน"
+  },
+  "projects": {
+    "title": "โครงการ",
+    "subtitle": "โครงการจริงจาก GitHub ของฉัน ดึงข้อมูลและจัดหมวดหมู่ตามเทคโนโลยีโดยอัตโนมัติ",
+    "filters": {
+      "all": "ทั้งหมด",
+      "networking": "เครือข่าย",
+      "web": "การพัฒนาเว็บ",
+      "database": "ฐานข้อมูล",
+      "iot": "IoT",
+      "ai-ml": "AI/ML",
+      "security": "ความปลอดภัย",
+      "other": "อื่นๆ"
+    },
+    "viewGithub": "GitHub",
+    "liveDemo": "ดูตัวอย่างสด",
+    "noDemo": "ไม่มีตัวอย่างสด",
+    "lastUpdated": "อัปเดตล่าสุด",
+    "fork": "ฟอร์ก / การมีส่วนร่วม",
+    "featured": "โครงการเด่น",
+    "curatedNote": "ผลงานโครงการที่คัดสรรจาก GitHub repositories",
+    "noResults": "ยังไม่มีโครงการในหมวดนี้"
+  },
+  "githubStats": {
+    "title": "กิจกรรม GitHub",
+    "subtitle": "สถิติแบบเรียลไทม์จากโปรไฟล์ GitHub ของฉัน",
+    "repos": "รีโพสิทอรีสาธารณะ",
+    "stars": "ดาวทั้งหมด",
+    "forks": "ฟอร์กทั้งหมด",
+    "followers": "ผู้ติดตาม",
+    "topLanguages": "ภาษาที่ใช้มากที่สุด",
+    "contributionGraph": "กราฟกิจกรรมการมีส่วนร่วม"
+  },
+  "achievements": {
+    "title": "ความสำเร็จ",
+    "subtitle": "เหตุการณ์สำคัญในเส้นทางด้านเครือข่าย ใบรับรอง และการศึกษาของฉัน"
+  },
+  "contact": {
+    "title": "ติดต่อฉัน",
+    "subtitle": "เปิดรับตำแหน่งวิศวกรเครือข่าย โอกาส NOC และความร่วมมือ มาติดต่อกันได้เลย",
+    "email": "อีเมล",
+    "phone": "โทรศัพท์",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "location": "ที่อยู่",
+    "form": {
+      "name": "ชื่อ",
+      "email": "อีเมล",
+      "message": "ข้อความ",
+      "send": "ส่งข้อความ",
+      "namePlaceholder": "ชื่อ-นามสกุลของคุณ",
+      "emailPlaceholder": "you@example.com",
+      "messagePlaceholder": "เล่าให้ฉันฟังเกี่ยวกับโอกาสหรือโครงการของคุณ...",
+      "sending": "กำลังเปิดโปรแกรมอีเมลของคุณ..."
+    }
+  },
+  "footer": {
+    "rights": "สงวนสิทธิ์ทั้งหมด"
+  },
+  "common": {
+    "backToTop": "กลับไปด้านบน"
+  }
+}

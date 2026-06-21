@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "education": "Education",
+    "experience": "Experience",
+    "skills": "Skills",
+    "certifications": "Certifications",
+    "projects": "Projects",
+    "githubStats": "GitHub Stats",
+    "achievements": "Achievements",
+    "contact": "Contact"
+  },
+  "hero": {
+    "availableBadge": "Available for new opportunities",
+    "downloadResume": "Download Resume",
+    "contactMe": "Contact Me",
+    "viewGithub": "View GitHub",
+    "connectLinkedin": "Connect on LinkedIn"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "A quick look at my professional background, strengths, and the languages I work in.",
+    "careerObjective": "Career Objective",
+    "strengths": "Personal Strengths",
+    "languages": "Languages"
+  },
+  "education": {
+    "title": "Education",
+    "subtitle": "My academic journey across networking, technology, and the sciences."
+  },
+  "experience": {
+    "title": "Work Experience",
+    "subtitle": "Four years of hands-on network engineering, from field installations to NOC leadership."
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "A blend of deep networking expertise and growing software development capability.",
+    "categories": {
+      "Networking": "Networking",
+      "Cybersecurity": "Cybersecurity",
+      "Cloud Computing": "Cloud Computing",
+      "Programming Languages": "Programming Languages",
+      "Databases": "Databases",
+      "Web Development": "Web Development",
+      "Operating Systems": "Operating Systems",
+      "DevOps": "DevOps",
+      "AI / Machine Learning": "AI / Machine Learning",
+      "Other Technical Skills": "Other Technical Skills",
+      "Tools & Technologies": "Tools & Technologies"
+    }
+  },
+  "certifications": {
+    "title": "Certifications",
+    "subtitle": "Industry-recognized credentials backing my networking expertise."
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Real projects from my GitHub, automatically pulled and categorized by technology.",
+    "filters": {
+      "all": "All",
+      "networking": "Networking",
+      "web": "Web Development",
+      "database": "Database",
+      "iot": "IoT",
+      "ai-ml": "AI/ML",
+      "security": "Security",
+      "other": "Other"
+    },
+    "viewGithub": "GitHub",
+    "liveDemo": "Live Demo",
+    "noDemo": "No live demo",
+    "lastUpdated": "Updated",
+    "fork": "Fork / Contribution",
+    "featured": "Featured",
+    "curatedNote": "Projects portfolio curated from GitHub repositories.",
+    "noResults": "No projects in this category yet."
+  },
+  "githubStats": {
+    "title": "GitHub Activity",
+    "subtitle": "Live statistics pulled directly from my GitHub profile.",
+    "repos": "Public Repositories",
+    "stars": "Total Stars",
+    "forks": "Total Forks",
+    "followers": "Followers",
+    "topLanguages": "Most Used Languages",
+    "contributionGraph": "Contribution Activity"
+  },
+  "achievements": {
+    "title": "Achievements",
+    "subtitle": "Milestones from my journey in networking, certification, and education."
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Open to network engineering roles, NOC opportunities, and collaborations. Let's connect.",
+    "email": "Email",
+    "phone": "Phone",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "location": "Location",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message",
+      "namePlaceholder": "Your full name",
+      "emailPlaceholder": "you@example.com",
+      "messagePlaceholder": "Tell me about the opportunity or project...",
+      "sending": "Opening your email client..."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "backToTop": "Back to top"
+  }
+}

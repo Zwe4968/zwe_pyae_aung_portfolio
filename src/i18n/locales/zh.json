@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我",
+    "education": "教育背景",
+    "experience": "工作经验",
+    "skills": "技能",
+    "certifications": "证书",
+    "projects": "项目",
+    "githubStats": "GitHub 统计",
+    "achievements": "成就",
+    "contact": "联系方式"
+  },
+  "hero": {
+    "availableBadge": "正在寻找新的工作机会",
+    "downloadResume": "下载简历",
+    "contactMe": "联系我",
+    "viewGithub": "查看 GitHub",
+    "connectLinkedin": "通过领英联系"
+  },
+  "about": {
+    "title": "关于我",
+    "subtitle": "简要了解我的专业背景、优势以及我所使用的语言。",
+    "careerObjective": "职业目标",
+    "strengths": "个人优势",
+    "languages": "语言能力"
+  },
+  "education": {
+    "title": "教育背景",
+    "subtitle": "我在网络技术与科学领域的学习历程。"
+  },
+  "experience": {
+    "title": "工作经验",
+    "subtitle": "四年扎实的网络工程经验，从现场安装到 NOC 团队管理。"
+  },
+  "skills": {
+    "title": "技能",
+    "subtitle": "深厚的网络技术专长与不断提升的软件开发能力相结合。",
+    "categories": {
+      "Networking": "网络技术",
+      "Cybersecurity": "网络安全",
+      "Cloud Computing": "云计算",
+      "Programming Languages": "编程语言",
+      "Databases": "数据库",
+      "Web Development": "网页开发",
+      "Operating Systems": "操作系统",
+      "DevOps": "DevOps",
+      "AI / Machine Learning": "人工智能 / 机器学习",
+      "Other Technical Skills": "其他技术技能",
+      "Tools & Technologies": "工具与技术"
+    }
+  },
+  "certifications": {
+    "title": "证书",
+    "subtitle": "行业认可的资格证书，彰显我的网络技术专长。"
+  },
+  "projects": {
+    "title": "项目",
+    "subtitle": "来自我 GitHub 的真实项目，按技术自动分类整理。",
+    "filters": {
+      "all": "全部",
+      "networking": "网络技术",
+      "web": "网页开发",
+      "database": "数据库",
+      "iot": "物联网",
+      "ai-ml": "人工智能/机器学习",
+      "security": "安全",
+      "other": "其他"
+    },
+    "viewGithub": "GitHub",
+    "liveDemo": "在线演示",
+    "noDemo": "暂无在线演示",
+    "lastUpdated": "更新于",
+    "fork": "分支 / 参与贡献",
+    "featured": "精选",
+    "curatedNote": "精选自 GitHub 仓库的项目作品集。",
+    "noResults": "该分类下暂无项目。"
+  },
+  "githubStats": {
+    "title": "GitHub 动态",
+    "subtitle": "直接从我的 GitHub 主页获取的实时统计数据。",
+    "repos": "公开仓库数",
+    "stars": "星标总数",
+    "forks": "分支总数",
+    "followers": "关注者",
+    "topLanguages": "最常用语言",
+    "contributionGraph": "贡献活动图"
+  },
+  "achievements": {
+    "title": "成就",
+    "subtitle": "我在网络技术、认证与教育历程中的重要里程碑。"
+  },
+  "contact": {
+    "title": "联系我",
+    "subtitle": "我正在寻找网络工程相关职位、NOC 机会以及合作项目，欢迎联系。",
+    "email": "电子邮箱",
+    "phone": "电话",
+    "linkedin": "领英",
+    "github": "GitHub",
+    "location": "所在地",
+    "form": {
+      "name": "姓名",
+      "email": "电子邮箱",
+      "message": "留言内容",
+      "send": "发送消息",
+      "namePlaceholder": "请输入您的姓名",
+      "emailPlaceholder": "you@example.com",
+      "messagePlaceholder": "请告诉我相关的机会或项目信息……",
+      "sending": "正在打开您的邮件客户端……"
+    }
+  },
+  "footer": {
+    "rights": "版权所有。"
+  },
+  "common": {
+    "backToTop": "返回顶部"
+  }
+}
